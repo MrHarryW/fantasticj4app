@@ -1,0 +1,107 @@
+* {
+      border: none;
+      outline: none;
+      font-family: 'Cinzel', serif;
+    }
+
+body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(54, 65, 73);
+      color: white;
+      padding-top: 90px;
+}
+
+.hero {
+  width: 100%;
+
+  video {
+    width: 100%;
+    z-index: 9;
+  }
+
+}
+
+header {
+  background-color: rgb(36, 43, 48);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;      
+  padding: 30px;
+  margin: 0;
+  display: flex;          
+  gap: 20px;  
+}
+
+nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+nav li a:visited {
+  color: white;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(195, 231, 231);
+  cursor: pointer;
+}
+
+.two {
+  padding: 10px;
+}
+
+.two h1 {
+  justify-self: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.info-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap; /* helps on smaller screens */
+}
+
+.info-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.info-text {
+  width: 55%;
+  text-align: left;
+}
+
+#bestiary { padding: 40px; }
+#bestiary h1 { text-align: center; font-family: 'Cinzel', serif; margin-bottom: 30px; }
+#bestiary p { text-align: center; font-family: 'Cinzel', serif; margin-bottom: 30px; }
+.beast-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.beast-card {
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.beast-card img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+.beast-card h2 { margin: 10px 0 5px; font-family: 'Cinzel', serif; }
